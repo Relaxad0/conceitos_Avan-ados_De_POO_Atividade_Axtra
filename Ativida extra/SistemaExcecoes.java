@@ -103,7 +103,7 @@ public class SistemaExcecoes {
         Scanner sc = new Scanner(System.in);
 
         try {
-            System.out.println("Divisão: 10 / 2 = " + Calculadora.dividir(10, 2));
+            System.out.println("Divisão: 10 / 3 = " + Calculadora.dividir(10, 3));
             System.out.println("Divisão: 5 / 0 = " + Calculadora.dividir(5, 0));
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
